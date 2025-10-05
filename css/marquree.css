@@ -1,0 +1,105 @@
+.slideMain {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#slideImg ul {
+    list-style: none;
+    padding-left:0;
+}
+#slideImg li {
+    float: left;
+    margin: 0;
+    padding-left: 20px;
+}
+#slideImg li img{
+    cursor: pointer;
+}
+
+.personal-banking .p-center p {
+    line-height: 16px;
+    text-align: center;
+}
+.retail-container p {
+    line-height: 32px;
+    letter-spacing: 0.252px;
+    padding-right: 44px;
+}
+.personal-banking .ratail-mobile h2::before {
+    height: 160px;
+}
+.retail-container h2::before {
+    content: '';
+    position: absolute;
+    width: 0.5px;
+    height: 244px;
+    left: -24px;
+    background: #4cd2fca3;
+}
+.retail-container h2 {
+    font-size: 28px;
+  font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.personal-banking .fidelity-container h2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 32px;
+    line-height: 32px;
+}
+.personal-banking .fidelity-container h2::before {
+    height: 130px;
+}
+.personal-banking .teslers-container h2::before {
+    height: 120px;
+}
+.personal-banking .design-container h2::before {
+    height: 189px;
+}
+
+.personal-banking .down-arrow {
+    position: absolute;
+    top: 29%;
+    left: 32%;
+}
+.personal-banking .hicks-container .down-arrow {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+}
+.personal-banking .hicks-container .down-arrow {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .personal-banking .down-arrow {
+        display: none;
+    }
+    .retail-container h2 {
+      font-size: 24px;
+      font-weight: 500;
+      text-align: center;
+    }
+    .personal-banking .p-center p {
+        margin-bottom: 10px;
+    }
+    .retail-container h2::before{
+        display: none;
+    }
+    .retail-container p {
+        line-height: 24px;
+        padding-right: 0;
+    }
+    .personal-banking .fidelity-container h2 {
+        font-size: 16px;
+        margin-left: 0;
+        line-height: 26px;
+        text-align: left;
+        margin-top: 26px;
+    }
+    
+}
